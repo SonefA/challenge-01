@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: white;
+}
+
+.header {
+    background-size: cover;
+    height: 600px;
+    text-align: right;
+    background-image: url(asset/header/bg_header.svg);
+}
+
+.content-0 {
+    display: flex;
+}
+
+.nav {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 30px 150px; */
+    /* padding-top: 30px;
+    padding-left: 30px; */
+    font-size: 15px;
+    /* background-color: #5CB85F; */
+    height: 70px;
+    /* margin-top: 30px; */
+    padding-top: 30px;
+    padding-right: 150px;
+}
+
+.logo {
+    margin-top: 18px;
+    margin-left: 150px;
+    padding-top: 10px;
+    background-color: #0D28A6;
+    padding: 18px 55px;
+    border-style: none;
+    /* height: 58px; */
+    font-size: medium;
+    height: 10px;
+  }
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.btn-register {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(92, 184, 95, 1);
+    padding: 10px;
+    margin-left: 50px;
+    border-style: none;
+    height: 20%;
+    border-radius: 7%;
+}
+
+.jumbotron {
+    width: 50%;
+    padding-left: 150px;
+
+}
+  
+.jumbo-text {
+    width: 600px;
+    color: black;
+    text-align: left;
+    padding-top: 150px;
+}
+  
+.jumbo-title {
+    font-size: 40px;
+    font-weight: 50px;
+}
+
+.jumbo-paragraph {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+  
+.btn-sewa1 {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(92, 184, 95, 1);
+    padding: 10px 12px;
+    border-style: none;
+    border-radius: 3px;
+}
+
+.car-picture {
+    width: 50%;
+    float: right;
+    
+}
+
+.car-picture img {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+}
+
+/* .content {
+    background-color: white;
+    background-size: cover;
+    height: 300px;
+    text-align: left;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    display: flex;
+    padding-top: 10%;
+} */
+
+.content-A {
+    display: flex;
+}
+
+.content-A1 {
+    width: 50%;
+    float: left;
+    padding-top: 8%;
+    padding-left: 15%;
+    background-color: white;
+    height: 300px;
+    color: white;
+}
+
+.content-A2{
+    width: 50%;
+    height: 600px;
+    float: right;
+    padding-top: 10%;
+    padding-left: 3%;
+    color: black;
+    padding-right: 150px;
+}
+
+.content-A22 {
+    padding-top: 3%;
+}
+
+.content-A22 img {
+    padding-right: 3%;
+}
+
+.content-B {
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    /* background-color: #0D28A6; */
+    float: right;
+
+}
+.content-B1 {
+    padding-left: 10%;
+    padding-top: 75px;
+    font-size: larger;
+}
+
+.content-C {
+    padding-left: 130px;
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.content-D {
+    /* background-color: gray; */
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    padding-top: 125px;
+}
+
+.arrow {
+    width: 100%;
+    height: 100px;
+    padding-top: 40px;
+    /* background-color: gray; */
+    
+}
+
+.arrow ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.arrow-left {
+    padding-right: 10px;
+}
+
+.arrow-right {
+    padding-left: 10px;
+}
+
+.carousel-slide {
+    width: 100%;
+    height: 500px;
+}
+
+.content-E {
+    width: 100%;
+    height: 400px;
+}
+
+.content-E1 {
+    background-color: #0D28A6;
+    color: white;
+    text-align: center;
+    border-radius: 13px;
+    height: 350px;
+    margin: 0px 150px;
+    padding-top: 75px;
+}
+
+.content-E1-paragraph {
+    padding-top: 9px;
+    padding-bottom: 50px;
+}
+
+
+.btn-sewa2 {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(92, 184, 95, 1);
+    padding: 10px 12px;
+    border-style: none;
+    border-radius: 3px;
+}
+
+.content-F {
+    margin-top: 100px;
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+
+.content-F1 {
+    width: 40%;
+    height: 280px;
+    padding-left: 150px;
+}
+
+.content-F2 {
+    width: 60%;
+    height: 280px;
+    padding-right: 150px;
+    padding-left: 30px;
+}
+
+.accordion-item {
+    padding-bottom: 15px;
+}
+
+.footer {
+    width: 100%;
+    height: 450px;
+    padding: 100px 150px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.identitas {
+    width: 25%;
+}
+
+.fitur {
+    width: 25%;
+    color: black;
+}
+
+.fitur ul li {
+    list-style: none;
+}
+
+.fitur ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.medsos {
+    width: 25%;
+}
+
+.copyright {
+    width: 25%;
+}
